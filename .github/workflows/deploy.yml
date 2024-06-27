@@ -29,9 +29,8 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.3
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: main
-          FOLDER: dist/<your-project-name>  # Replace <your-project-name> with your actual project name
+          FOLDER: dist/test  # Replace <your-project-name> with your actual project name
 
 
 
